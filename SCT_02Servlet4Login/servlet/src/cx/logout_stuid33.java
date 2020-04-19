@@ -10,16 +10,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servlet3
+ * Servlet implementation class logout_stuid33
  */
-@WebServlet("/servlet3")
-public class servlet3 extends HttpServlet {
+@WebServlet("/logout_stuid33")
+public class logout_stuid33 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public servlet3() {
+    public logout_stuid33() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -40,7 +40,7 @@ public class servlet3 extends HttpServlet {
         response.addCookie(cx1);
         out.println("<p h1 a align=\"center\">注销成功</a></h1></p>");
         out.println("<div align=\"center\">");
-        out.println("<a href=\"index.html\">重新登陆</a>");
+        out.println("<a href=\"login_stuid33.html\">重新登陆</a>");
 	}
 
 	/**
