@@ -49,7 +49,7 @@ public class loginCheck_stuid33 extends HttpServlet {
 				 response.sendRedirect("loginSucceeded_stuid33");
 			}
 	        else{
-				request.getRequestDispatcher("login_stuid33.html").forward(request, response);
+				request.getRequestDispatcher("loginerror_stuid33.html").forward(request, response);
 			}
 	}
 
